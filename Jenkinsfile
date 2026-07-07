@@ -31,7 +31,7 @@ pipeline {
                 sh '''
                    echo "Test Part"
                    test -f src/index.js
-                   npn test
+                   npm test
                 '''
             }
         }
